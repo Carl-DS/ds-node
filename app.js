@@ -15,10 +15,11 @@ var app = express();
 
 // view engine setup 定义jade模板引擎和模板文件位置,也可以使用ejs或其他模板引擎
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 // uncomment after placing your favicon in /public 定义icon图标
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+
 // 定义日志和输出级别
 app.use(logger('dev'));
 // 定义数据解析器

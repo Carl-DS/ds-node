@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 /**
+ * 依赖加载
  * Module dependencies.
  */
 
@@ -9,6 +10,7 @@ var debug = require('debug')('nodejsdemo:server');
 var http = require('http');
 
 /**
+ * 定义启动端口
  * Get port from environment and store in Express.
  */
 
@@ -16,12 +18,14 @@ var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
+ * 创建HTTP 服务器实例
  * Create HTTP server.
  */
 
 var server = http.createServer(app);
 
 /**
+ * 启动网络服务监听端口
  * Listen on provided port, on all network interfaces.
  */
 
@@ -30,6 +34,7 @@ server.on('error', onError);
 server.on('listening', onListening);
 
 /**
+ * 端口标准化函数
  * Normalize a port into a number, string, or false.
  */
 
@@ -50,6 +55,7 @@ function normalizePort(val) {
 }
 
 /**
+ * HTTP异常事件处理函数
  * Event listener for HTTP server "error" event.
  */
 
@@ -78,6 +84,7 @@ function onError(error) {
 }
 
 /**
+ * 事件绑定函数
  * Event listener for HTTP server "listening" event.
  */
 
