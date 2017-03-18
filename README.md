@@ -62,3 +62,25 @@ dependencies(或devDependencies), 还需要额外加个参数:
 这样每次`npm i xxx --save`的时候会锁定依赖的版本号,相当于加了`--save-exact`参数.
 
 >`npm config set`命令将配置写到了~/.npmrc文件,可以运行`npm config list`查看.
+
+
+### <<Node.js 包教不包会>> 学习记录
+Lesson 0: 《搭建 Node.js 开发环境》 done
+Lesson 1: 《一个最简单的 express 应用》done
+Lesson 2: 《学习使用外部模块》done
+Lesson 3: 《使用 superagent 与 cheerio 完成简单爬虫》 done
+Lesson 4: 《使用 eventproxy 控制并发》
+Lesson 5: 《使用 async 控制并发》
+Lesson 6: 《测试用例：mocha，should，istanbul》
+Lesson 7: 《浏览器端测试：mocha，chai，phantomjs》 -- by @elrrrrrrr
+Lesson 8: 《测试用例：supertest》
+Lesson 9: 《正则表达式》
+Lesson 10: 《benchmark 怎么写》
+Lesson 11: 《作用域与闭包：this，var，(function () {})》 -- by @Ricardo-Li
+Lesson 12: 《线上部署：heroku》
+Lesson 13: 《持续集成平台：travis》
+Lesson 14: 《js 中的那些最佳实践》
+Lesson 15: 《Mongodb 与 Mongoose 的使用》
+Lesson 16: 《cookie 与 session》 -- by @Ricardo-Li
+Lesson 17: 《使用 promise 替代回调函数》 -- by @eeandrew
+Lesson 18: 《何为 connect 中间件》 -- by @albin3

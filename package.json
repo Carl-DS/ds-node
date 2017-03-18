@@ -1,5 +1,5 @@
 {
-  "name": "nodejsdemo",
+  "name": "nodejs-colaui",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,12 +7,14 @@
   },
   "dependencies": {
     "body-parser": "~1.16.0",
+    "cheerio": "0.22.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
     "express": "~4.14.1",
     "morgan": "~1.7.0",
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.3.2",
+    "superagent": "3.5.0",
     "utility": "1.11.0"
   }
 }

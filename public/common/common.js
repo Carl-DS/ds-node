@@ -33,7 +33,7 @@
             "service.logout": "./service/account/logout",
             "service.menus": "./service/menus",
             "service.user.detail": "./service/user/detail",
-            title: "NodeJSDemo"
+            title: "nodejs-colaui"
         };
     }
 
