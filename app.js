@@ -9,7 +9,9 @@ var bodyParser = require('body-parser');
 // 加载路由控制
 var index = require('./routes/index');
 var users = require('./routes/users');
-var crawler = require("./routes/crawler");
+var crawler = require('./routes/crawler');
+var eventproxy = require('./routes/eventproxy');
+
 
 // 创建项目实例
 var app = express();
@@ -34,7 +36,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // 匹配路径和路由
 app.use('/', index);
 app.use('/users', users);
-app.use("/crawler", crawler);
+app.use('/crawler', crawler);
+app.use('/eventproxy', eventproxy);
 
 // catch 404 and forward to error handler 404错误处理
 app.use(function(req, res, next) {
