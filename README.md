@@ -1,4 +1,6 @@
 # nodejs-colaui
+[![Build Status](https://travis-ci.org/Carl-DS/nodejs-colaui.svg?branch=master)](https://travis-ci.org/Carl-DS/nodejs-colaui)
+
 Practice for demo nodejs + colaui
 
 ## 技术选型
