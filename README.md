@@ -67,40 +67,45 @@ dependencies(或devDependencies), 还需要额外加个参数:
 
 
 ### <<Node.js 包教不包会>> 学习记录
-Lesson 0: 《搭建 Node.js 开发环境》 done
+- [x] Lesson 0: 《搭建 Node.js 开发环境》 
 
-Lesson 1: 《一个最简单的 express 应用》done
+- [x] Lesson 1: 《一个最简单的 express 应用》done
 
-Lesson 2: 《学习使用外部模块》done
+- [x] Lesson 2: 《学习使用外部模块》done
 
-Lesson 3: 《使用 superagent 与 cheerio 完成简单爬虫》 done
+- [x] Lesson 3: 《使用 superagent 与 cheerio 完成简单爬虫》 done
 
-Lesson 4: 《使用 eventproxy 控制并发》done
+- [x] Lesson 4: 《使用 eventproxy 控制并发》done
 
-Lesson 5: 《使用 async 控制并发》 done
+- [x] Lesson 5: 《使用 async 控制并发》 done
 
-Lesson 6: 《测试用例：mocha，should，istanbul》
+- [ ] Lesson 6: 《测试用例：mocha，should，istanbul》
 
-Lesson 7: 《浏览器端测试：mocha，chai，phantomjs》 -- by @elrrrrrrr
+- [ ] Lesson 7: 《浏览器端测试：mocha，chai，phantomjs》 -- by @elrrrrrrr
 
-Lesson 8: 《测试用例：supertest》
+- [ ] Lesson 8: 《测试用例：supertest》
 
-Lesson 9: 《正则表达式》
+- [ ] Lesson 9: 《正则表达式》
 
-Lesson 10: 《benchmark 怎么写》
+- [ ] Lesson 10: 《benchmark 怎么写》
 
-Lesson 11: 《作用域与闭包：this，var，(function () {})》 -- by @Ricardo-Li
+- [ ] Lesson 11: 《作用域与闭包：this，var，(function () {})》 -- by @Ricardo-Li
 
-Lesson 12: 《线上部署：heroku》
+- [ ] Lesson 12: 《线上部署：heroku》
 
-Lesson 13: 《持续集成平台：travis》
+- [ ] Lesson 13: 《持续集成平台：travis》
 
-Lesson 14: 《js 中的那些最佳实践》
+- [ ] Lesson 14: 《js 中的那些最佳实践》
 
-Lesson 15: 《Mongodb 与 Mongoose 的使用》
+- [ ] Lesson 15: 《Mongodb 与 Mongoose 的使用》
 
-Lesson 16: 《cookie 与 session》 -- by @Ricardo-Li
+- [ ] Lesson 16: 《cookie 与 session》 -- by @Ricardo-Li
 
-Lesson 17: 《使用 promise 替代回调函数》 -- by @eeandrew
+- [x] Lesson 17: 《使用 promise 替代回调函数》 -- by @eeandrew
+    1. 概念
+        * promise 只有三种状态, 初始状态未完成或拒绝(pending), 完成(fulfilled)和失败(rejected)
+        * promise 的状态可以由末完成转换成完成, 或者由末完成转换成失败
+        * promise 的状态转换只发生一次
+    2. 为什么需要promise
 
-Lesson 18: 《何为 connect 中间件》 -- by @albin3
+- [ ] Lesson 18: 《何为 connect 中间件》 -- by @albin3
