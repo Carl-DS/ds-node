@@ -34,9 +34,8 @@ router.get("/", function (req, res, next) {
         console.log('final: ');
         console.log(result);
     });
+
     res.send("Hello async!");
-
-
 });
 
 module.exports = router;

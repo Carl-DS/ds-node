@@ -101,11 +101,12 @@ dependencies(或devDependencies), 还需要额外加个参数:
 
 - [ ] Lesson 16: 《cookie 与 session》 -- by @Ricardo-Li
 
-- [x] Lesson 17: 《使用 promise 替代回调函数》 -- by @eeandrew
+- [x] Lesson 17: 《使用 promise 替代回调函数》 -- by @eeandrew done
     1. 概念
         * promise 只有三种状态, 初始状态未完成或拒绝(pending), 完成(fulfilled)和失败(rejected)
         * promise 的状态可以由末完成转换成完成, 或者由末完成转换成失败
         * promise 的状态转换只发生一次
     2. 为什么需要promise
+        * 
 
 - [ ] Lesson 18: 《何为 connect 中间件》 -- by @albin3

@@ -12,6 +12,7 @@ var users = require('./routes/users');
 var crawler = require('./routes/crawler');
 var eventproxy = require('./routes/eventproxy');
 var async = require('./routes/async');
+var promise = require('./routes/promise');
 
 
 // 创建项目实例
@@ -40,6 +41,7 @@ app.use('/users', users);
 app.use('/crawler', crawler);
 app.use('/eventproxy', eventproxy);
 app.use('/async', async);
+app.use('/promise', promise);
 
 // catch 404 and forward to error handler 404错误处理
 app.use(function(req, res, next) {
