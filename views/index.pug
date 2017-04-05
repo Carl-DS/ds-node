@@ -1,12 +1,8 @@
 extends layout
 block content
-  h1= title
-  p Welcome to #{title}
-  var friends = 30
-  case friends
-    when 0
-      p you have no friends
-    when 1
-      p you have a friend
-    default
-      p you have #{friends} friends
+  div(style='margin:0 auto; width: 300px;')
+    h1 示例列表
+      ul
+        li
+          a(href='') 单例模式
+
