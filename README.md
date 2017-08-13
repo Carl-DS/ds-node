@@ -1,13 +1,12 @@
-# nodejs-colaui
+# ds-node
 [![Build Status](https://travis-ci.org/Carl-DS/nodejs-colaui.svg?branch=master)](https://travis-ci.org/Carl-DS/nodejs-colaui)
 
-Practice for demo nodejs + colaui
+Practice for demo NodeJs
 
 ## 技术选型
 * NodeJs v6.10.0
 * Express V4.14.1
 * Npm V3.10.10
-* Cola-UI V0.9.8
 * Pug V2.0.0-beta11
 
 ## 启动项目
