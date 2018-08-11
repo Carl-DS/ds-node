@@ -16,7 +16,7 @@
     "morgan": "~1.7.0",
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.3.2",
-    "superagent": "3.5.0",
+    "superagent": "3.7.0",
     "url": "0.11.0",
     "utility": "1.11.0"
   }
